@@ -1743,7 +1743,7 @@ module collections {
         /**
          * Creates an empty set.
          * @class <p>A set is a data structure that contains no duplicate items.</p>
-         * <p>If the inserted elements are custom objects a function 
+         * <p>If the inserted elements are custom objects a function
          * which converts elements to strings must be provided. Example:</p>
          *
          * <pre>
@@ -1911,6 +1911,115 @@ module collections {
         /*
         * Provides a string representation for display
         */
+        toString(): string {
+            return collections.arrays.toString(this.toArray());
+        }
+    }// end of Set
+
+    export class Collection<T>{
+        private dictionary: Array<T>;
+        private counter = 0;
+
+        /**
+         * Creates an empty collection.
+         * @constructor
+         */
+        constructor() {
+            this.dictionary = [];
+        }
+
+        /**
+         * Returns true if this collection contains the specified element.
+         * @param {Object} element to search for.
+         * @return {boolean} true if this set contains the specified element,
+         * false otherwise.
+         */
+        contains(element : T): boolean {
+            return arrays.contains(this.dictionary, element);
+        }
+
+        /**
+         * Adds the specified element to this collection
+         * @param {Object} element the element to insert.
+         */
+        add(element: T): void {
+            this.dictionary.push(element);
+        }
+
+        /**
+         * Performs a union between this an another collection.
+         * Adds all values from the given collection to this collection.
+         * @param {collections.Collection} other collection.
+         */
+        union(other: Collection<T>): void {
+            var set = this;
+            other.forEach(function (element: T): boolean {
+                set.add(element);
+                return true;
+            });
+        }
+
+        /**
+         * Removes the specified element from this set if it is present.
+         * @return {boolean} true if this set contained the specified element.
+         */
+        remove(element: T): boolean {
+            if (!this.contains(element)) {
+                return false;
+            } else {
+                var idx = this.dictionary.indexOf(element);
+                this.dictionary.splice(idx, 1);
+                return true;
+            }
+        }
+
+        /**
+         * Executes the provided function once for each element
+         * present in this collection.
+         * @param {function(Object):*} callback function to execute, it is
+         * invoked with one arguments: the element. To break the iteration you can
+         * optionally return false.
+         */
+        forEach(callback: ILoopFunction<any>): void {
+            this.dictionary.forEach(function (k, v) {
+                return callback(v);
+            });
+        }
+
+        /**
+         * Returns an array containing all of the elements in this set in arbitrary order.
+         * @return {Array} an array containing all of the elements in this set.
+         */
+        toArray(): T[] {
+            return this.dictionary;
+        }
+
+        /**
+         * Returns true if this set contains no elements.
+         * @return {boolean} true if this set contains no elements.
+         */
+        isEmpty(): boolean {
+            return this.dictionary.length>0;
+        }
+
+        /**
+         * Returns the number of elements in this set.
+         * @return {number} the number of elements in this set.
+         */
+        size(): number {
+            return this.dictionary.length;
+        }
+
+        /**
+         * Removes all of the elements from this set.
+         */
+        clear(): void {
+            this.dictionary = [];
+        }
+
+        /*
+         * Provides a string representation for display
+         */
         toString(): string {
             return collections.arrays.toString(this.toArray());
         }
