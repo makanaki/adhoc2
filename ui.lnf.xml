@@ -4,7 +4,8 @@
     <option name="FONT_SCALE" value="1.5" />
     <option name="MAX_LOOKUP_WIDTH2" value="660" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
+    <option name="SHOW_TOOL_WINDOW_NUMBERS" value="false" />
     <option name="smoothScrolling" value="true" />
-    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>

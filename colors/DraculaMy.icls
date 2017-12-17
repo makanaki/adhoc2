@@ -1,7 +1,8 @@
 <scheme name="DraculaMy" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.5" />
-  <option name="EDITOR_FONT_SIZE" value="18" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="LINE_SPACING" value="0.8" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="d6822" />
