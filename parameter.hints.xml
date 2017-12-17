@@ -1,0 +1,11 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="PHP">
+        <added pattern="\error_reporting(level)" />
+        <removed pattern="" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

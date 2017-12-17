@@ -1,0 +1,62 @@
+<templateSet group="JavaScript">
+  <template name="for" value="for (var i=0; i&lt;$VAR$; i++) {&#10;&#9;$END$&#10;}" description="FOR statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch ($VAR$) {&#10;&#9;case $END$:&#10;&#9;&#9;break;&#10;&#9;default:&#10;&#9;&#9;break;&#10;}" description="SWITCH statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tryc" value="try {&#10;&#9;$END$&#10;} catch(e) {&#10;}" description="TRY CATCH statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="die" value="die($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="thr" value="throw new Error('$END$');" description="THROW statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($END$) {&#10;}" description="IF statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="con" value="console.log($END$);" description="console.log expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="aa" value="($END$) =&gt; {&#10;&#10;}" description="Arrow Function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="imp" value="import {} from '$END$';" description="Import statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name=".the" value=".then(($END$) =&gt; {&#10;})" description="Promise THEN statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

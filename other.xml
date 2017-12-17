@@ -1,0 +1,43 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe" />
+    <local-interpreter path="C:/node.js/node.exe">
+      <version-cache version="6.9.1" last-modified="1478631586194" />
+      <npm-package value="C:/node.js/node_modules/npm" />
+    </local-interpreter>
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="C:/node.js/node.exe" version="6.8.0" last-modified="1481871287372" />
+  </component>
+  <component name="PhpRefactoringSettings">
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
+    <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="XSLT Stylesheet" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+</application>

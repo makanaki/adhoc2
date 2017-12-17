@@ -1,0 +1,56 @@
+<templateSet group="PHP">
+  <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" shortcut="SPACE" description="private function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="arr" value="array($END$);" description="Array declaration" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($END$) {&#10;}" description="IF statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="die" value="die('$END$');" description="die fast" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ( $i = 0 ; $i &lt; $END$ ; $i++ ) {&#10;} " description="For cycle" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tryc" value="try {&#10;&#9;$END$&#10;} catch(Exception $e){&#10;}" shortcut="SPACE" description="try-catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch ($END$) {&#10;&#9;case :&#10;&#9;&#9;break;&#10;&#9;default :&#10;&#9;&#9;break;&#10;}" description="switch statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="false" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="arrm" value="array_map(function($item){&#10;&#9;$END$&#10;},$VAR$);" description="array_map declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="arrr" value="array_reduce($VAR1$, function($carry, $item){&#10;&#9;$END$&#10;}, $VAR2$)" description="ARRAY_REDUCE statement" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
