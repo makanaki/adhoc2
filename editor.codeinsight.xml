@@ -3,6 +3,7 @@
     <option name="COLLAPSE_METHODS" value="true" />
   </component>
   <component name="CodeInsightSettings">
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="AUTOCOMPLETE_ON_SMART_TYPE_COMPLETION" value="false" />
     <option name="SMART_END_ACTION" value="false" />
