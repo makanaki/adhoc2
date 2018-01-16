@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.d.ts;*.hprof;*.map;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
     <extensionMap>
+      <mapping pattern=".nodelete" type="PLAIN_TEXT" />
       <mapping pattern="tmp" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="Smarty" />
     </extensionMap>
