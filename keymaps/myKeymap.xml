@@ -29,12 +29,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="JumpToLastWindow" />
-  <action id="OpenDirectoryProject">
-    <keyboard-shortcut first-keystroke="ctrl alt o" />
-  </action>
   <action id="OptimizeImports" />
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="alt 1" />
+  </action>
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
