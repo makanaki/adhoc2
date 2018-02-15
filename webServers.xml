@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b23f5a0-8ddc-489a-8ac1-ee7dfc28bdd3" name="localhost" url="http://localhost">
+        <fileTransfer host="localhost" port="2200" rootFolder="/mnt/c/git/lsm-app-reporting" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2200" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
