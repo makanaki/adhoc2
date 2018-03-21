@@ -1,5 +1,9 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/node" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/promise-polyfill" type="javaScript">
       <CLASSES />
       <SOURCES />
