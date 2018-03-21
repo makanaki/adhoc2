@@ -4,9 +4,5 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/promise-polyfill" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
   </component>
 </application>
