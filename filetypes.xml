@@ -5,6 +5,7 @@
       <mapping pattern=".nodelete" type="PLAIN_TEXT" />
       <mapping pattern="tmp" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="Smarty" />
+      <mapping pattern="Dispatcher" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
