@@ -59,4 +59,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name=".cat" value=".catch((e: Error) =&gt; {&#10;    $END$&#10;})" description="Promise CATCH statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
