@@ -4,13 +4,14 @@
   </component>
   <component name="UISettings">
     <option name="ANIMATE_WINDOWS" value="false" />
-    <option name="FONT_SCALE" value="1.0" />
-    <option name="FONT_SIZE" value="8" />
+    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
     <option name="MAX_LOOKUP_WIDTH2" value="660" />
+    <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SHOW_MEMORY_INDICATOR" value="true" />
     <option name="SHOW_TOOL_WINDOW_NUMBERS" value="false" />
     <option name="smoothScrolling" value="true" />
-    <option name="WIDESCREEN_SUPPORT" value="true" />
+    <option name="USE_SMALL_LABELS_ON_TABS" value="true" />
   </component>
 </application>
