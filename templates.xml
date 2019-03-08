@@ -1,5 +1,13 @@
 <application>
   <component name="TemplateSettings">
     <defaultShortcut shortcut="SPACE" />
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="fori" />
+        </TemplateKey>
+      </list>
+    </option>
   </component>
 </application>

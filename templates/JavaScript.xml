@@ -1,11 +1,4 @@
 <templateSet group="JavaScript">
-  <template name="for" value="for (var i=0; i&lt;$VAR$; i++) {&#10;&#9;$END$&#10;}" description="FOR statement" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
   <template name="swi" value="switch ($VAR$) {&#10;&#9;case $END$:&#10;&#9;&#9;break;&#10;&#9;default:&#10;&#9;&#9;break;&#10;}" description="SWITCH statement" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -60,6 +53,12 @@
     </context>
   </template>
   <template name=".cat" value=".catch((e: Error) =&gt; {&#10;    $END$&#10;})" description="Promise CATCH statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (let idx = 0;idx &lt; $END$; idx++) {&#10;}" description="FOR statement" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
